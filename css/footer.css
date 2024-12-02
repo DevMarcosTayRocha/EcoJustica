@@ -1,0 +1,40 @@
+footer .container-filho {
+    height: 100%;
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+     img{
+        width: 55px;
+    }
+}
+
+footer {
+    background-color: var(--cor-cinco);
+
+    color: var(--cor-dois);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color: red;
+    
+}
+footer a{
+    color: var(--cor-dois)
+}
+footer a:hover{
+    color: var(--cor-tres)
+}
+footer ul{
+    gap: 50px;
+}
+
+  /*//////////////////////////////////////////////////////////////*/
+
+  @media (max-width: 425px) {
+    
+  }

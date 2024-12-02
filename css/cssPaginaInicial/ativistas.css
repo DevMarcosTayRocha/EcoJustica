@@ -1,0 +1,97 @@
+#container-ativistas .container-filho {
+    width: 90%;
+    height: 100%;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+#container-ativistas {
+    background-color: var(--cor-um);
+  
+    color: var(--cor-dois);
+    display: flex;
+    justify-content: center;
+    
+    padding: 40px 0px;
+  }
+  
+  .ativista {
+    width: 100%;
+    display: flex;
+    background-color: var(--cor-dois);
+    font-size: 20px;
+    color: var(--cor-um);
+    text-align: justify;
+  }
+
+  .imagem-ativista {
+    width: 40%;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .botao-ativistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .informacoes-ativistas {
+    width: 60%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    gap: 20px;
+  }
+
+  .nome-ativista {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  /*//////////////////////////////////////////////////////////////*/
+
+  @media (max-width: 425px) {
+    #container-ativistas {
+      width: 425px;
+    }
+
+    #container-ativistas .container-filho {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .imagem-ativista {
+      width: 30%;
+      height: 100%;
+    }
+
+    .informacoes-ativistas {
+      width: 70%;
+      font-size: 15px;
+    }
+    .botao-ativistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    font-size: 15px;
+    margin: 20px;
+  }
+  .botao-ativistas{
+    margin: 5px;
+  }
+  }

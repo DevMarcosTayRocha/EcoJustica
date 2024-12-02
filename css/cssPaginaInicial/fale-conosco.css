@@ -1,0 +1,114 @@
+#container-fale-conosco {
+    background-color: var(--cor-um);
+    display: flex;
+    justify-content: center;
+}
+
+#container-fale-conosco .container-filho {
+    margin: 40px 0 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.parte1-fale-conosco {
+    color: var(--cor-dois);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.parte2-fale-conosco form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.form-padrao {
+    height: 30px;
+    background-color: var(--cor-um);
+    border: var(--cor-quatro) solid 5px;
+    color: var(--cor-dois);
+    padding: 5px 10px;
+    outline: none;
+}
+
+.form-padrao:focus {
+    border-color: var(--cor-dois);
+}
+
+#botao-enviar:focus {
+    background-color: var(--cor-tres);
+    border: var(--cor-tres);     
+}
+
+#botao-receber:focus {
+    background-color: var(--cor-dois);
+    border: var(--cor-dois);
+    color: var(--cor-um);
+}
+
+#container-fale-conosco textarea {
+    height: 300px;
+    resize: none;
+}
+
+#fim-forms {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+#container-fale-conosco button {
+    font-weight: 600;
+    height: 50px;
+    width: 70%;
+    outline: none;
+}
+
+#container-fale-conosco button:hover {
+    background-color: var(--cor-dois);
+    border: var(--cor-dois);
+    color: var(--cor-quatro);
+}
+
+#fim-forms .form-padrao {
+    font-weight: 800;
+    width: 30%;
+    height: 50px;
+}
+
+textarea::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  textarea::-webkit-scrollbar-track {
+    background: var(--cor-cinco);
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    background-color: var(--cor-dois);
+  }
+
+  #botao-receber.receberAtivo {
+    background-color: var(--cor-dois);
+    border-color: var(--cor-dois);
+    color: var(--cor-um);
+  }
+
+    /*//////////////////////////////////////////////////////////////*/
+
+    @media (max-width: 425px) {
+        #container-fale-conosco {
+            width: 425px;
+        }
+
+        #container-fale-conosco .container-filho {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .parte1-fale-conosco {
+            font-size: 15px;
+        }
+    }

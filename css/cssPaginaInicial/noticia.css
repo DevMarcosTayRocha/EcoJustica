@@ -1,0 +1,126 @@
+#container-noticias {
+    background-color: var(--cor-um);
+  
+    color: var(--cor-dois);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #container-noticias .container-filho {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #noticias {
+    margin: 40px 0px 20px 0px;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .noticia {
+    background-color: var(--cor-quatro);
+    position: absolute;
+  
+    transition: 0s; /*transção*/
+  
+    transition-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+    
+    display: flex;
+
+    font-size: 20px;
+  }
+  
+  .noticia .pequeno-container-noticia {
+    display: flex;
+    overflow: hidden;
+    text-align: justify;
+  }
+  
+  .noticia .pequeno-container-noticia .imagem {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  
+  .noticia .pequeno-container-noticia .textos-noticia {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  #proxima-noticia, #anterior-noticia {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    right: 0px;
+    img {
+      width: 80px;
+    }
+    z-index: 1;
+  }
+  
+  #anterior-noticia {
+    left: 0px;
+  }
+  
+  #relatos {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .relato {
+    background-color: var(--cor-quatro);
+    position: absolute;
+    width: 75% ;
+    height: 90px;
+  
+    transition: 0s; /*transção*/
+  
+    transition-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .botao-noticia {
+    width: 80%;
+    height: 60px;
+    margin: 10%;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    /*//////////////////////////////////////////////////////////////*/
+
+    @media (max-width: 425px) {
+      #container-noticias {
+        width: 425px;
+      }
+    }

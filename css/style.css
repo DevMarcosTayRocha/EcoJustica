@@ -1,0 +1,83 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+DE+Grund:wght@100..400&display=swap");
+
+:root {
+    --cor-um: #0A080F;
+    --cor-dois: #fff;
+    --cor-tres: #27fa27;
+    --cor-quatro: #1B1724;
+    --cor-cinco: #000000;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#container-mae {
+    
+    background-color: var(--cor-quatro);
+    display: grid;
+    row-gap: 10px
+
+}
+
+.container-filho {
+  width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.divisao-sessoes {
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--cor-dois);
+}
+
+.botao-padrao {
+  background-color: var(--cor-um);
+  border: var(--cor-quatro) solid 5px;
+  color: var(--cor-dois);
+  transition: 0.5s;
+}
+
+.botao-padrao:hover {
+  color: var(--cor-dois);
+  background-color: var(--cor-tres);
+  border: solid 5px var(--cor-tres);
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--cor-dois);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-cinco);
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.texteCelular {
+  background-color: red;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+}
+
+@media (max-width: 425px) {
+ 
+}
