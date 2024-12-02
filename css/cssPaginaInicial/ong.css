@@ -85,7 +85,6 @@
 
   display: flex;
   justify-content: center;
-  align-items: center;
 
   overflow: hidden;
   position: relative;
@@ -167,7 +166,6 @@
 
   .container-ongs2 {
     width: 425px;
-    padding-top: 40px;
   }
 
   .ong {

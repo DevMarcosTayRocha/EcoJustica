@@ -141,7 +141,7 @@ ongId1.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 0;
@@ -156,7 +156,7 @@ ongId2.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 1;
@@ -171,7 +171,7 @@ ongId3.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 2;
@@ -186,7 +186,7 @@ ongId4.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 3;
@@ -201,7 +201,7 @@ ongId5.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 4;
@@ -216,7 +216,7 @@ ongId6.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 5;
@@ -231,7 +231,7 @@ ongId7.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 6;
@@ -246,7 +246,7 @@ ongId8.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 7;
@@ -261,7 +261,7 @@ ongId9.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 8;
@@ -276,7 +276,7 @@ ongId10.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 9;
@@ -291,7 +291,7 @@ ongId11.onclick = function () {
   if (window.innerWidth <= 425) {
     containerOngs2.style.height = "600px";
   } else {
-    containerOngs2.style.height = "400px";
+    containerOngs2.style.height = "340px";
   }
 
   ativoOng2 = 10;
