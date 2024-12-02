@@ -79,5 +79,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 425px) {
- 
+ #container-mae {
+  overflow: hidden;
+ }
 }
