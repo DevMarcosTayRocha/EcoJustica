@@ -139,7 +139,7 @@ ongId1.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -154,7 +154,7 @@ ongId2.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -169,7 +169,7 @@ ongId3.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -184,7 +184,7 @@ ongId4.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -199,7 +199,7 @@ ongId5.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -214,7 +214,7 @@ ongId6.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -229,7 +229,7 @@ ongId7.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -244,7 +244,7 @@ ongId8.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -259,7 +259,7 @@ ongId9.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -274,7 +274,7 @@ ongId10.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
@@ -289,7 +289,7 @@ ongId11.onclick = function () {
   containerOngs2.style.transition = "1s";
   
   if (window.innerWidth <= 425) {
-    containerOngs2.style.height = "1000px";
+    containerOngs2.style.height = "600px";
   } else {
     containerOngs2.style.height = "400px";
   }
