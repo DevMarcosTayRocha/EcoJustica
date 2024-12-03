@@ -18,22 +18,27 @@ function noticiaMovimento() {
   let stt = 0;
 
   itensNoticia[ativoNoticia].style.transform = `none`;
-  itensNoticia[ativoNoticia].style.height = `450px`;
-  itensNoticia[ativoNoticia].style.width = `${(window.innerWidth * 90) / 100 - 0}px`;
+  if (window.innerWidth <= 425) {
+    itensNoticia[ativoNoticia].style.height = `auto`;
+  } else {
+    itensNoticia[ativoNoticia].style.height = `450px`;
+  }
+
+  if (window.innerWidth <= 425) {
+    itensNoticia[ativoNoticia].style.width = `${(425 * 90) / 100 - 0}px`;
+  } else {
+    itensNoticia[ativoNoticia].style.width = `${(window.innerWidth * 90) / 100 - 0}px`;
+  }
 
   for (var i = ativoNoticia + 1; i < itensNoticia.length; i++) {
     stt++;
-    itensNoticia[i].style.transform = `translateX(${window.innerWidth * stt}px)`;
-    itensNoticia[i].style.height = `0px`;
-    itensNoticia[i].style.width = `0px`;
+    itensNoticia[i].style.transform = `translateX(${window.innerWidth * 2 * stt}px)`;
   }
 
   stt = 0;
   for (var i = ativoNoticia - 1; i >= 0; i--) {
     stt++;
     itensNoticia[i].style.transform = `translateX(${-window.innerWidth * stt}px)`;
-    itensNoticia[i].style.height = `0px`;
-    itensNoticia[i].style.width = `0px`;
   }
 }
 
