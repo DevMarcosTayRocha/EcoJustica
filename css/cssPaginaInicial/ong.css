@@ -77,6 +77,8 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  height: 0px;
+  transition: 1s;
 }
 
 .container-ongs2 .container-filho {
@@ -95,7 +97,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  transition: 0s;
 
   position: absolute;
 }
