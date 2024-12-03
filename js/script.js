@@ -28,3 +28,21 @@ menu.addEventListener("click", () => {
 });
 
 // HEADER HEADER HEADER HEADER HEADER HEADER
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      if (targetElement) {
+          const offset = window.innerHeight / 2 - targetElement.offsetHeight / 2;
+          const topPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
+          
+          window.scrollTo({
+              top: topPosition,
+              behavior: 'smooth'
+          });
+      }
+  });
+});
