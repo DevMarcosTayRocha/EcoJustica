@@ -27,11 +27,19 @@ document.getElementById("formBase").addEventListener("submit", function (event) 
   const emailInput = document.getElementById("email").value.trim();
 
   // Expressão regular para validar o e-mail
-  const emailPattern = /^[a-z0-9]+@[a-z0-9]+\.[a-z]{3}$/;
+  const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
   if (!emailPattern.test(emailInput)) {
-      event.preventDefault(); // Impede o envio se o e-mail for inválido
+      event.preventDefault();
       alert("E-mail inválido! Verifique o formato.");
   }
-  // Caso contrário, o formulário será enviado automaticamente
 });
+
+
+const formulario = document.getElementById('formBase');
+    formulario.addEventListener('submit', function() {
+
+      setTimeout(() => {
+        formulario.reset();
+      }, 500);
+    });
