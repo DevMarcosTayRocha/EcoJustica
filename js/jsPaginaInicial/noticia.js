@@ -3,6 +3,10 @@ let itensRelatos = document.querySelectorAll("#relatos .relato");
 let proximoNoticia = document.getElementById("proxima-noticia");
 let anteriorNocitia = document.getElementById("anterior-noticia");
 
+for (i = 0; i < itensRelatos.length; i++) {
+  itensRelatos[i].style.width = `${(window.innerWidth * 90) / 100 - 40}px`;
+}
+
 let cooldown = false;
 
 function cooldownFuncNot() {
