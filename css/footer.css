@@ -36,5 +36,11 @@ footer ul{
   /*//////////////////////////////////////////////////////////////*/
 
   @media (max-width: 425px) {
-    
+    footer {
+        width: 425px;
+    }
+
+    footer nav {
+        display: none;
+    }
   }

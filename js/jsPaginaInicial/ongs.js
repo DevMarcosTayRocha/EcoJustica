@@ -307,23 +307,4 @@ sumirOng2.forEach((sumir) => {
     containerOngs2.style.height = "0px";
   });
 
-
-  const items = document.querySelectorAll('.ong');
-  
-    items.forEach(item => {
-      item.addEventListener('mouseover', () => {
-        items.forEach(el => {
-          if (el !== item) {
-            el.classList.add('dimmed');
-          }
-        });
-      });
-  
-      item.addEventListener('mouseout', () => {
-        items.forEach(el => {
-          el.classList.remove('dimmed');
-        });
-      });
-    });
-
 });
