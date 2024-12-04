@@ -1,4 +1,3 @@
 Ancora banner para noticia correta
 
-pagina noticias
-pagina racismo ambiental
+pagina noticias:

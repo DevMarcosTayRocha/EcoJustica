@@ -109,7 +109,52 @@
 
 /* NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 */
 
+#n02 {
+    grid-template-areas:
 
+    "t11 t11 t12 t12"
+    "t11 t11 t12 t12"
+    "t11 t11 t12 t12"
+    
+    "t13 t13 t13 r12"
+    "t13 t13 t13 r12"
+    "t13 t13 t13 r11"
+    "r13 m12 m12 r11"
+    "r13 m11 m11 m11"
+
+}
+
+#t11 {
+    grid-area: t11;
+}
+
+#t12 {
+    grid-area: t12;
+}
+
+#t13 {
+    grid-area: t13;
+}
+
+#m11 {
+    grid-area: m11;
+}
+
+#m12 {
+    grid-area: m12;
+}
+
+#r11 {
+    grid-area: r11;
+}
+
+#r12 {
+    grid-area: r12;
+}
+
+#r13 {
+    grid-area: r13;
+}
 
 /* NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 */
 
