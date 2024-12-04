@@ -227,3 +227,69 @@
 }
 
 /* NOTICIA 05 NOTICIA 05 NOTICIA 05 NOTICIA 05 NOTICIA 05 NOTICIA 05 */ 
+
+#n05 {
+    grid-template-areas:
+
+    "t41 t41 t43 t43"
+    "m42 m42 t43 t43"
+
+    "t42 t42 t42 t42"
+
+    "t44 t44 t44 t44"
+    
+    "m41 m41 m41 r44"
+    "r42 r42 r42 r44"
+    "r41 r43 r43 r44"
+    "r41 r43 r43 r45"
+    "r41 m43 m43 m43"
+    "r41 m43 m43 m43"
+}
+
+#t41 {
+    grid-area: t41;
+}
+
+#t42 {
+    grid-area: t42;
+}
+
+#t43 {
+    grid-area: t43;
+}
+
+#t44 {
+    grid-area: t44;
+}
+
+#r41 {
+    grid-area: r41;
+}
+
+#r42 {
+    grid-area: r42;
+}
+
+#r43 {
+    grid-area: r43;
+}
+
+#r44 {
+    grid-area: r44;
+}
+
+#r45 {
+    grid-area: r45;
+}
+
+#m41 {
+    grid-area: m41;
+}
+
+#m42 {
+    grid-area: m42;
+}
+
+#m43 {
+    grid-area: m43;
+}
