@@ -6,6 +6,27 @@
 }
 
 #menu-escondido {
-    display: none;
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--cor-um);
+        z-index: -1;
+        overflow: hidden;
+        width: 0px;
+        transition: 10s;
+}
+    
+#links-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+#links-menu a {
+    padding: 10px;
 }
 

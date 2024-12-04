@@ -1,3 +1,7 @@
+body{
+    background-color: var(--cor-um);
+}
+
 #container-noticias {
     width: 100%;
     background-color: var(--cor-um);
@@ -292,4 +296,8 @@
 
 #m43 {
     grid-area: m43;
+}
+
+footer {
+    margin-top: 60px;
 }
