@@ -1,14 +1,5 @@
 const temasBanner = [
     {
-      tema: "ROMPIMENTO DA BARRAGEM EM BRUMADINHO",
-      texto:
-        'Foto: Antonio Cruz/Agência Brasil.',
-      botao: "",
-      link: "#sessao-noticia",
-      imagem: "brumadinho-banner",
-    },
-  
-    {
       tema: "ACIDENTE DE CÉSIO 137",
       texto:
         'Goiânia, Goiás, Setembro de 1987.',
@@ -27,11 +18,28 @@ const temasBanner = [
     {
       tema: "RIO GRANDE DO SUL",
       texto:
-        'Minas Gerais, Brumadinho, Janeiro de 2019.',
+        'Brumadinho, Minas Gerais, Janeiro de 2019.',
       botao: "SAIBA MAIS",
       link: "#sessao-noticia",
       imagem: "rio-banner",
     },
+    {
+      tema: "DESASTRE DE MARIANA",
+      texto:
+        'Mariana, Minas Gerais.',
+      botao: "",
+      link: "#sessao-noticia",
+      imagem: "mariana-banner",
+    },
+    {
+      tema: "EXPLORAÇÃO NA ILHA DE MARAJÓ",
+      texto:
+        'Rio Amazonas, Pará',
+      botao: "",
+      link: "#sessao-noticia",
+      imagem: "marajo-banner",
+    },
+  
   ];
   
   var indiceBanner = 0;

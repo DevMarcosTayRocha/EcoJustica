@@ -65,21 +65,6 @@
     color: aqua;
   }
   
-  @keyframes brumadinho-banner {
-    0% {
-      background-image: url(../../img/brumadinho01.png);
-    }
-    33% {
-      background-image: url(../../img/brumadinho02.png);
-    }
-    66% {
-      background-image: url(../../img/brumadinho03.png);
-    }
-    100% {
-      background-image: url(../../img/brumadinho01.png);
-    }
-  }
-  
   @keyframes cesio137-banner {
     0% {
       background-image: url(../../img/cesio13701.png);
@@ -122,6 +107,36 @@
     }
     100% {
       background-image: url(../../img/rioGrandeDoSul01.png);
+    }
+  }
+
+  @keyframes marajo-banner {
+    0% {
+      background-image: url(../../img/marajo01.png);
+    }
+    33% {
+      background-image: url(../../img/marajo02.png);
+    }
+    66% {
+      background-image: url(../../img/marajo03.png);
+    }
+    100% {
+      background-image: url(../../img/marajo01.png);
+    }
+  }
+
+  @keyframes mariana-banner {
+    0% {
+      background-image: url(../../img/mariana01.png);
+    }
+    33% {
+      background-image: url(../../img/mariana02.png);
+    }
+    66% {
+      background-image: url(../../img/mariana03.png);
+    }
+    100% {
+      background-image: url(../../img/mariana01.png);
     }
   }
 
