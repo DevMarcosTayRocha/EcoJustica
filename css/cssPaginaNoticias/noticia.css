@@ -12,6 +12,8 @@
 .container-banner {
     width: 100%;
     height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .titulo {
@@ -158,7 +160,34 @@
 
 /* NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 */
 
+#n03 {
+    grid-template-areas:
 
+    "m21 m21 t21 t21"
+    "t22 t22 m22 m22"
+    "t23 t23 m22 m22"
+
+}
+
+#t21 {
+    grid-area: t21;
+}
+
+#t22 {
+    grid-area: t22;
+}
+
+#t23 {
+    grid-area: t23;
+}
+
+#m21 {
+    grid-area: m21;
+}
+
+#m22 {
+    grid-area: m22;
+}
 
 /* NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 NOTICIA 01 */
 
