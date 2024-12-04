@@ -133,6 +133,15 @@ let ongId8 = document.getElementById("ongId8");
 let ongId9 = document.getElementById("ongId9");
 let ongId10 = document.getElementById("ongId10");
 let ongId11 = document.getElementById("ongId11");
+let ongId12 = document.getElementById("ongId12");
+let ongId13 = document.getElementById("ongId13");
+let ongId14 = document.getElementById("ongId14");
+let ongId15 = document.getElementById("ongId15");
+let ongId16 = document.getElementById("ongId16");
+let ongId17 = document.getElementById("ongId17");
+let ongId18 = document.getElementById("ongId18");
+let ongId19 = document.getElementById("ongId19");
+let ongId20 = document.getElementById("ongId20");
 
 ongId1.onclick = function () {
   let containerOngs2 = document.querySelector(".container-ongs2");
@@ -295,6 +304,141 @@ ongId11.onclick = function () {
   }
 
   ativoOng2 = 10;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId12.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 11;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId13.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 12;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId14.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 13;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId15.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 14;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId16.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 15;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId17.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 16;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId18.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 17;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId19.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 18;
+  ongs2Movimento();
+  cooldownFunc();
+};
+
+ongId20.onclick = function () {
+  let containerOngs2 = document.querySelector(".container-ongs2");
+  containerOngs2.style.transition = "1s";
+  
+  if (window.innerWidth <= 425) {
+    containerOngs2.style.height = "600px";
+  } else {
+    containerOngs2.style.height = "340px";
+  }
+
+  ativoOng2 = 19;
   ongs2Movimento();
   cooldownFunc();
 };
