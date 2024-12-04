@@ -17,7 +17,7 @@ let ativoOng = 0;
 if (window.innerWidth <= 425) {
   ativoOng = 1
 } else {
-  ativoOng = 2
+  ativoOng = 3
 }
 
 function ongsMovimento() {
@@ -58,7 +58,7 @@ proximoOng.onclick = function () {
     if (window.innerWidth <= 425) {
       ativoOng = ativoOng + 2 < itensOngs.length ? ativoOng + 1 : ativoOng;
     } else {
-      ativoOng = ativoOng + 3 < itensOngs.length ? ativoOng + 1 : ativoOng;
+      ativoOng = ativoOng + 4 < itensOngs.length ? ativoOng + 1 : ativoOng;
     }
     ongsMovimento();
     cooldownFunc();
@@ -76,7 +76,7 @@ anteriorOng.onclick = function () {
     if (window.innerWidth <= 425) {
       ativoOng = ativoOng - 2 >= 0 ? ativoOng - 1 : ativoOng;
     } else {
-      ativoOng = ativoOng - 3 >= 0 ? ativoOng - 1 : ativoOng;
+      ativoOng = ativoOng - 4 >= 0 ? ativoOng - 1 : ativoOng;
     }
     ongsMovimento();
     cooldownFunc();
