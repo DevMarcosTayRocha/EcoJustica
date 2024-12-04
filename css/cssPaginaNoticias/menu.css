@@ -1,0 +1,11 @@
+#menu {
+    display: flex;
+    background-image: url(../../img/menu02.svg);
+    height: 50px;
+    width: 50px;
+}
+
+#menu-escondido {
+    display: none;
+}
+
