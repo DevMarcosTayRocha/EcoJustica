@@ -1,20 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+DE+Grund:wght@100..400&display=swap");
-
-:root {
-    --cor-um: #0A080F;
-    --cor-dois: #fff;
-    --cor-tres: #27fa27;
-    --cor-quatro: #1B1724;
-    --cor-cinco: #000000;
-}
-
-body {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
 #container-mae {
     background-color: var(--cor-quatro);
     display: grid;

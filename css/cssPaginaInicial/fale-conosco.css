@@ -101,6 +101,14 @@ textarea::-webkit-scrollbar {
     color: var(--cor-um);
   }
 
+  #container-fale-conosco input::placeholder {
+    color: var(--cor-dois);
+  }
+
+  #container-fale-conosco textarea::placeholder {
+    color: var(--cor-dois);
+  }
+
     /*//////////////////////////////////////////////////////////////*/
 
     @media (max-width: 425px) {
