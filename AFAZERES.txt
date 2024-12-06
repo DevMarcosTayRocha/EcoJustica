@@ -2,4 +2,4 @@ Ancora banner para noticia correta
 
 pagina noticias menu e footer
 
-teste para commit externo
+tes 2 commit externo
