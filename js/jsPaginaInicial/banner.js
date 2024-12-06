@@ -5,6 +5,7 @@ const temasBanner = [
         'Goiânia, Goiás, Setembro de 1987.',
       botao: "SAIBA MAIS",
       link: "#sessao-noticia",
+      ativo: 0,
       imagem: "cesio137-banner",
     },
     {
@@ -13,6 +14,7 @@ const temasBanner = [
         'Maranhão, Alcântara.',
       botao: "SAIBA MAIS",
       link: "#sessao-noticia",
+      ativo: 1,
       imagem: "quilombolas-banner",
     },
     {
@@ -21,6 +23,7 @@ const temasBanner = [
         'Brumadinho, Minas Gerais, Janeiro de 2019.',
       botao: "SAIBA MAIS",
       link: "#sessao-noticia",
+      ativo: 2,
       imagem: "rio-banner",
     },
     {
@@ -29,6 +32,7 @@ const temasBanner = [
         'Mariana, Minas Gerais.',
       botao: "",
       link: "#sessao-noticia",
+      ativo: 3,
       imagem: "mariana-banner",
     },
     {
@@ -37,6 +41,7 @@ const temasBanner = [
         'Rio Amazonas, Pará',
       botao: "",
       link: "#sessao-noticia",
+      ativo: 4,
       imagem: "marajo-banner",
     },
   
@@ -56,6 +61,14 @@ const temasBanner = [
     ).style.animation = `${temaAtual.imagem} 10s infinite`;
   
     indiceBanner = (indiceBanner + 1) % temasBanner.length;
+    
+    botao.addEventListener('click', function() {
+      ativoNoticia = temaAtual.ativo;
+      noticiaMovimento();
+    setTimeout(() => {
+      relatosMovimento();
+    }, 500);
+    })
   }
   
   trocarTema();
