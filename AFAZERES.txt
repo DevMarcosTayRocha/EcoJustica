@@ -1,5 +1,1 @@
-Ancora banner para noticia correta
-
-pagina noticias menu e footer
-
-tes 2 commit externo
+commit ultima maquina
