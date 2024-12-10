@@ -8,11 +8,11 @@ window.addEventListener('scroll', function () {
 const menu = document.getElementById("menu");
   
   menu.addEventListener("mouseover", () => {
-    document.getElementById("menu").style.backgroundImage = "url(../img/menu01.svg)";
+    document.getElementById("menu").style.backgroundImage = "url(../img/icones/menu01.svg)";
   });
   
   menu.addEventListener("mouseout", () => {
-    document.getElementById("menu").style.backgroundImage = "url(../img/menu02.svg)";
+    document.getElementById("menu").style.backgroundImage = "url(../img/icones/menu02.svg)";
   });
 
 menu.addEventListener("click", () => {
