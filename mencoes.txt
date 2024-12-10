@@ -1,0 +1,7 @@
+Ana: Teve participação principal na escolha do tema e no desenvolvimento do layout do site. Contribuiu com o conteúdo e pesquisa sobre o que é o racismo ambiental, e também com a pesquisa das notícias: Desastre em Mariana; e Exploração em Marajó.
+
+Luiza: Teve participação principal no desenvolvimento da parte dos ativistas, tanto na sessão da página inicial quanto na criação do layout de todas as páginas HTML para os ativistas. Contribuiu com pesquisas dos mesmo, e também com o conteúdo das notícias: Césio 137; e Luta Quilombola.
+
+Marcos: Teve participação no layout do site principal e no desenvolvimento do mesmo e sua responsividade. Desenvolveu também as páginas: Racismo Ambiental; e Notícias.
+
+Miguel: Teve participação na discussão do layout do site, além de colaborar com a criação do header e do footer principal. Entrou pesquisas sobre a notícia: Enchente no Rio Grande do Sul.
