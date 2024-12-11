@@ -9,18 +9,13 @@ document.querySelectorAll("input, textarea").forEach((field) => {
 });
 
 const button = document.getElementById("botao-receber");
+const taMuitoTardeParaCriarNomeDeVariavelNaoDescontaNotaPorIstoProfessor = document.getElementById("sim-ou-nao")
 
 // Adiciona o evento de clique
 button.addEventListener("click", () => {
   // Alterna a classe "active"
   button.classList.toggle("receberAtivo");
-
-  // Alterna o texto do botão
-  if (button.classList.contains("receberAtivo")) {
-    button.textContent = "RECEBER EMAIL";
-  } else {
-    button.textContent = "NÃO RECEBER EMAIL";
-  }
+  taMuitoTardeParaCriarNomeDeVariavelNaoDescontaNotaPorIstoProfessor.classList.toggle("receberAtivo")
 });
 
 document.getElementById("formBase").addEventListener("submit", function (event) {
